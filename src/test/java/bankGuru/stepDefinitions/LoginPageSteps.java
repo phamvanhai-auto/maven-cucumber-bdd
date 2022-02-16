@@ -8,7 +8,7 @@ import cucumber.api.java.en.When;
 import cucumberOptions.Hooks;
 import pageUIs.bankGuru.LoginPageUI;
 
-public class LoginPageSteps extends BasePage{
+public class LoginPageSteps extends BasePage {
 	WebDriver driver;
 	static String loginPageUrl;
 	

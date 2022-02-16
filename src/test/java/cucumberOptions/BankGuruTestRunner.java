@@ -13,7 +13,7 @@ import cucumber.api.junit.Cucumber;
 		monochrome = true,
 		plugin = { "pretty", "html:target/site/cucumber-report-default", "json:target/site/cucumber.json"},
 		snippets = SnippetType.CAMELCASE,
-		tags = { "@register_login" })
+		tags = { "@test_guru" })
 
 public class BankGuruTestRunner {
 
